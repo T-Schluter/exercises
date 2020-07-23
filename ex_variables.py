@@ -1,4 +1,4 @@
-# Week 4 Variables and User Input: Exercises
+# User Input: Exercises
 
 # Q1
 
