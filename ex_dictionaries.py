@@ -2,25 +2,25 @@
 
 #Q1
 
-groceries = {
-    ["Baby Spinach", 2.78],
-    ["Hot Chocolate", 3.70],
-    ["Crackers", 2.10],
-    ["Bacon", 9.00],
-    ["Carrots", 0.56],
-    ["Oranges", 3.08] 
-}
+# groceries = {
+#     ["Baby Spinach", 2.78],
+#     ["Hot Chocolate", 3.70],
+#     ["Crackers", 2.10],
+#     ["Bacon", 9.00],
+#     ["Carrots", 0.56],
+#     ["Oranges", 3.08] 
+# }
 
-# Change value of existing key:
-groceries["Hot Chocolate"] = 11.10,
-groceries["Crackers"] = 4.20,
-groceries["Carrots"] = 2.24,
-groceries["Oranges"] = 6.16,
+# # Change value of existing key:
+# groceries["Hot Chocolate"] = 11.10,
+# groceries["Crackers"] = 4.20,
+# groceries["Carrots"] = 2.24,
+# groceries["Oranges"] = 6.16,
 
-print(f"===== Izzy's Food Emporium ====="
-    (groceries))
-print(f(sum(grocieries.values))
-    "=================")
+# print(f"===== Izzy's Food Emporium ====="
+#     (groceries))
+# print(f(sum(grocieries.values))
+#     "=================")
 
 #Q2
 
@@ -29,10 +29,14 @@ names = {
 
 }
 
-name_count = 
+string_count = names
 
-def name_count
-    retrun f"{name}" 
+print(string_count(names))
+
+# names_count = if names >
+
+# def names_count
+#     retrun f"{name}" 
 
 #Q3
 

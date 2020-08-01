@@ -2,16 +2,10 @@
 
 #Q1
 
-moths_in_house = True
-moths_not_in_house = False
-print(moths_in_house or moths_not_in_house)
-
-#print(not moths_not_in_house) also produces false answer
-
-moths_in_house = True
+moths_in_house = False
 if moths_in_house:
     print("Roary go get the moths!")
-elif moths_not_in_house:
+else:
     print("No threats detected.")
 
 
@@ -19,9 +13,21 @@ print()
 
 #Q2
 
-moths_in_house = True
-moths_not_in_house = False
-print(moths_in_house or moths_not_in_house)
+moths_in_house = False
+mitch_is_home = True
+
+if monts_in-house and mitch_is_home:
+    print("Hooman! Help me get the moths")
+
+elif not moths_in_house and not mitch_is_home:
+    print("No treats detected.")
+
+
+elif moths_in_house and not mitch_is_home:
+    print("Meoooooooow! Hisssssssss")
+
+elif not moths_in_house and not mitch_is_home:
+    print("Climb on Mitch.")
 
 print()
 
@@ -33,13 +39,16 @@ print()
 
 #Q4
 
+height_limit = 119
 
-height = input("Enter your height in centimeters: ")
- = > 119
+height = input("Pleas enter your height in centimeters: ")
 
-if height <119:
+height = rider_height 
+
+if height <= 119:
     print("Sorry, not today.")
-elif height >120:
+
+else:
     print("Yay, Hop on!")
 
 
