@@ -9,21 +9,25 @@ print(foods[2])
 print(foods[-1])
 print(foods[0:3])
 print(foods[-1:-3])
-# need last item in sublist
+print(foods[-1][-1])
 
 print()
 #Q2 still in development
 
-# mailing_list = []
-# Roary: roary@moth.catchers
-# Remus: remus@kapers.dog
-# Prince Thomas of Whitepaw: hrh.tomas@royalty.wp
-# Biscuit: biscit @  whippies.park
-# Rory: rory @ wippies.park
+mailing_list = [
+["Roary", "roary@moth.catchers"],
+["Remus", "remus@kapers.dog"],
+["Prince Thomas of Whitepaw", "hrh.tomas@royalty.wp"],
+["Biscuit", "biscit @  whippies.park"],
+["Rory", "rory @ wippies.park"],
+]
+
+for item in mailing_list:
+    print(f"{item[0]]}, {item[1]}")
 
 print ()
 
-#Q3
+#Q3 in development
 
 name = ["Izzy, Archie, Boston"]
 
@@ -37,6 +41,8 @@ print()
 
 
 #Q4 still in development
+
+string = input()
 
 print ("this is a string")
 
