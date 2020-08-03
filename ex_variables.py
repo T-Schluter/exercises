@@ -43,7 +43,14 @@ m = km * 1000
 cm = km * 10000
 print(f"Your kilometer value converts to {m} meters or {cm} centimeters.")
 
+km = float(input("Enter the number of kilometers to convert: "))
+m = km * 1000
+cm = km * 10000
+print(f"Your kilometer value converts to {m} meters or {cm} centimeters.")
+
 print()
+
+
 
 #Q4
 

@@ -12,7 +12,8 @@ print(foods[-1:-3])
 print(foods[-1][-1])
 
 print()
-#Q2 still in development
+
+#Q2
 
 mailing_list = [
 ["Roary", "roary@moth.catchers"],
@@ -23,28 +24,45 @@ mailing_list = [
 ]
 
 for item in mailing_list:
-    print(f"{item[0]]}, {item[1]}")
+    print(f"{item[0]} : {item[1]}")
 
 print ()
 
-#Q3 in development
+#Q3 
 
-name = ["Izzy, Archie, Boston"]
+# step one ask the user for 3 names
+#create counter for 3
+# while the counter is greater then zero
+# ask the user for their name
+# 2 append the names to a list
+# 3 print the list
 
-if "Izzy, Archie, Boston" in name:
-    print(f"Welcome Back {name}[0:3]")
-else:
-    print(f"Nice to meet you, {name}")
+names = []
+
+#empty list
+
+count = 3
+while count > 0:
+    name = input(f"What is your name?")
+    names.append(name)
+    count = count -1
+print(names)
 
 
 print()
 
 
-#Q4 still in development
+#Q4 still in development 
+
+text = "this is a string"
+
+# print(len)
+# print (text[:14])
 
 string = input()
 
 print ("this is a string")
+
 
 
 print()

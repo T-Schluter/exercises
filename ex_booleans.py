@@ -35,26 +35,25 @@ print()
 
 is_car_detected = False
 is_red = True
-is_green = True
-is_amber = True
 
-if not is_car_detected and is_red:
-    print("Do nothing.")
+if is_car_detected and is_red:
+    print("FLash!")
 
+else:
+    print("do nothing.")
 print()
 
 #Q4
 
-height_limit = 119
+height_limit = 120
 
 height_check = int(input("Please enter your height in centimeters: "))
 
-height = height_check
-
-if height <= 119:
+if height_check < height_limit:
     print("Sorry, not today.")
 
 else:
     print("Yay, Hop on!")
 
 
+# Completed.
